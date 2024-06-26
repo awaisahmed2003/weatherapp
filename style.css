@@ -7,7 +7,7 @@
 
 body {
     background:  #222 url(images/defaultbg.png) no-repeat center center fixed;
-    background-size: 1500px;
+    background-size: cover;
 }
 
 .card {
