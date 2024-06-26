@@ -79,7 +79,7 @@ async function checkWeather(city) {
         } else if (data.weather[0].main == "Drizzle") {
             weatherIcon.src = "images/drizzle.png";
             body.style.backgroundImage = "url('images/drizzlebg.png')";
-        } else if (data.weather[0].main == "Mist") {
+        } else if (data.weather[0].main == "Mist" || data.weather[0].main == "Haze") {
             weatherIcon.src = "images/mist.png";
             body.style.backgroundImage = "url('images/mistbg.png')";
         } else {
@@ -102,3 +102,4 @@ checkWeather();
 
 </body>
 </html>
+
